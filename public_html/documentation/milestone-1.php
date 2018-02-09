@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-	><head>
-		<meta charset="UTF-8">
-
-		<title> My PWP Project</title>
+<
+		!DOCTYPE html>
+		<html lang="en">
+			><head>
+				<meta charset="UTF-8">
+				<title> My PWP Project</title>
 	</head>
 	<body>
 		<h1>Personal Website</h1>
