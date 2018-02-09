@@ -23,55 +23,57 @@
 
 		<title> finale </title>
 
-		<section>
+				<section>
 
-			<div class="container">
+					<div class="container">
 
-				<div>
+							<div>
 
-					<h1>F. Charles Crawford</h1>
+								<h1>F. Charles Crawford</h1>
 
-						<h3>Web Designer</h3>
-				<			p>"Design is about demonstrating how beautiful something can be. It has a very profound quality. Design is a way of changing life and influencing the future."
-								—Sir Ernest Hall</p>
+									<h3>Web Designer</h3>
 
+										<p>"Design is about demonstrating how beautiful something can be. It has a very profound quality. Design is a way of changing life and influencing the future."
+										—Sir Ernest Hall</p>
+
+
+								</div>
 
 					</div>
 
-			</div>
-
 		</section>
-
 
 
 		<section>
 
 				<h1>Skills</h1>
-					<h2>FRONTEND DEVELOPMENT</h2>
+
+								<h2>FRONTEND DEVELOPMENT</h2>
+
+									<ul>
+											<li>Bootstrap</li>
+
+											<li>jQuery</li>
+
+											<li>CSS</li>
+
+											<li>HTML</li>
+
+											<li>Angular</li>
+
+											<li>React</li>
+
+											<li>Javascript</li>
+
+										</ul>
+
+							<h2>BACKEND DEVELOPMENT</h2>
 
 						<ul>
-							<li>Bootstrap</li>
 
-							<li>jQuery</li>
+								<li>PHP</li>
 
-							<li>CSS</li>
-
-							<li>HTML</li>
-
-							<li>Angular</li>
-
-							<li>React</li>
-
-							<li>Javascript</li>
-
-						</ul>
-
-				<h2>BACKEND DEVELOPMENT</h2>
-
-			<ul>
-					<li>PHP</li>
-
-					<li></li>
+										<li></li>
 
 					<li></li>
 
@@ -92,86 +94,175 @@
 
 
 
-
-
-
-
-
-
 		</section>
-
-
 		<section>
 
 
+		<section>
+				<div class="form-group row">
 
+					<label for="inputName" class="col-sm-2 col-form-label">Name</label>
 
+					<div class="col-sm-3">
 
+				<input type="email" class="form-control" id="inputName" placeholder="Name">
+
+			</div>
+
+			<form>
+
+				<div class="form-group row">
+
+					<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+
+					<div class="col-sm-3">
+
+						<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+
+					</div>
+
+						<label for="inputSubject" class="col-sm-2 col-form-label">Subject</label>
+
+						<div class="col-sm-3">
+
+							<input type="Subject" class="form-control" id="inputSubject" placeholder="Subject">
+
+						</div>
+
+				</div>
+
+					<div class="col-sm-3 offset-sm-2">
+
+						<button type="submit" class="btn btn-primary">Submit</button>
+
+					</div>
+
+				</div>
+
+			</form>
 
 		</section>
 
-				<footer class="page-footer blue center-on-small-only">
 
-							<div class="container-fluid">
 
-										<div class="row">
 
-													<div class="col-md-6">
 
-																<h5 class="title">Footer Content</h5>
 
-														<p>Here you can use rows and columns here to organize your footer content.</p>
+		<!--Footer-->
+		<footer class="page-footer center-on-small-only stylish-color-dark">
 
-													</div>
+			<!--Footer Links-->
+			<div class="container">
 
-											<div class="col-md-6">
+				<div class="row">
 
-									<h5 class="title">Links</h5>
+					<!--First column-->
+					<div class="col-md-3">
 
-							<ul>
+						<h3 class="title mb-4 mt-3 font-bold">Contact Me</h3>
+
+					</div>
+					<!--/.First column-->
+
+					<hr class="clearfix w-100 d-md-none">
+
+					<!--Second column-->
+					<div class="col-md-2 mx-auto">
+
+						<h5 class="title mb-4 mt-3 font-bold">Links</h5>
+
+						<ul>
 
 							<li><a href="#!">Link 1</a></li>
+
 							<li><a href="#!">Link 2</a></li>
+
 							<li><a href="#!">Link 3</a></li>
+
+							<li><a href="#!">Link 4</a></li>
+
+						</ul>
+
+					</div>
+					<!--/.Second column-->
+
+					<hr class="clearfix w-100 d-md-none">
+
+					<!--Third column-->
+					<div class="col-md-2 mx-auto">
+
+						<h5 class="title mb-4 mt-3 font-bold">Links</h5>
+
+						<ul>
+
+							<li><a href="#!">Link 1</a></li>
+
+							<li><a href="#!">Link 2</a></li>
+
+							<li><a href="#!">Link 3</a></li>
+
+							<li><a href="#!">Link 4</a></li>
+
+						</ul>
+
+					</div>
+					<!--/.Third column-->
+
+					<hr class="clearfix w-100 d-md-none">
+
+					<!--Fourth column-->
+					<div class="col-md-2 mx-auto">
+
+						<h5 class="title mb-4 mt-3 font-bold ">Links</h5>
+
+						<ul>
+
+							<li><a href="#!">Link 1</a></li>
+
+							<li><a href="#!">Link 2</a></li>
+
+							<li><a href="#!">Link 3</a></li>
+
 							<li><a href="#!">Link 4</a></li>
 						</ul>
 
-					</div>>
+					</div>
 
+					<!--/.Fourth column-->
 				</div>
 
 			</div>
+			<!--/.Footer Links-->
 
-			<div class="footer-copyright">
-				<div class="container-fluid">
+			<hr>
 
-				</div>
+			<div class="call-to-action">
+
+						<h5 class="mb-1">Hire Me</h5>
+
 			</div>
+
+			<hr>
+			<!--Social buttons-->
+			<div class="social-section text-center">
+
+				<ul>
+
+					<li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
+
+					<li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
+
+					<li><a class="btn-floating btn-sm btn-ig"><i class="fa fa-instagram"> </i></a></li>
+
+					<li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
+
+					<li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
+
+				</ul>
+
+			</div>
+
 		</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	</body>
 </html>
