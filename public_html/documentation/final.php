@@ -5,7 +5,9 @@
 	<head>
 
 		<meta charset="UTF-8">
+
 		<meta charset="UTF-8">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -15,38 +17,56 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<title> finale </title>
+
+		<link rel="stylesheet" type="image/css" href="../images/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="../images/text.css">
+
+
+
 
 	</head>
 
 
 	<body>
 
-		<title> finale </title>
-
 				<section>
 
 					<div class="container">
 
-							<div>
+<h1 class= "text-white text center"> F. Charles Crawford</h1>
 
-								<h1>F. Charles Crawford</h1>
+							</div>
 
-									<h3>Web Designer</h3>
 
-										<p>"Design is about demonstrating how beautiful something can be. It has a very profound quality. Design is a way of changing life and influencing the future."
+						<div>
+
+									<h3> Designer</h3>
+
+							<p class="text-center">"Design is about demonstrating how beautiful something can be. It has a very profound quality. Design is a way of changing life and influencing the future."
 										—Sir Ernest Hall</p>
 
-
-								</div>
-
-					</div>
+						</div>
 
 		</section>
 
+		<!--skills section with languages and programs-->
 
-		<section>
 
-				<h1>Skills</h1>
+	<section>
+
+
+		<div class="pad section" id="skills">
+
+			<div class="container">
+
+				::before
+
+					<div class="row row-eq-height">_</div>
+
+				::after
+
+					<h1>Skills</h1>
 
 								<h2>FRONTEND DEVELOPMENT</h2>
 
@@ -67,9 +87,9 @@
 
 										</ul>
 
-							<h2>BACKEND DEVELOPMENT</h2>
+								<h2>BACKEND DEVELOPMENT</h2>
 
-						<ul>
+							<ul>
 
 								<li>PHP</li>
 
@@ -79,190 +99,79 @@
 
 					<li></li>
 
-
 			</ul>
 
+</div>
 
-
-
-
-		</section>
-
-
-		<section>
-
-
-
+	</div>
 
 		</section>
+
+		<!--about me section personal bio-->
+		<!--skills section with languages and programs-->
 		<section>
 
+			<div class="container fluid">
 
-		<section>
-				<div class="form-group row">
+				<h1>About Me</h1>
 
-					<label for="inputName" class="col-sm-2 col-form-label">Name</label>
+					<p> My passion for web development didn't begin with computers, but with a love for problem solving.
+					For the past 15 plus years I have worked in the telecommunications field as a technician. My day to day
+						duties included being as efficient as possible in determining problems and implimenting the quickest most
+						efficient solution to those problems by reason and great deducting skills. I didn't see my desire for problem solving
+					leading me to programming but that's exactly how it happened. I was looking
+					for a career that would allow me to use more of my own creativity and mental capacity to solve problems, I discovered
+					Stemulus Deep Dive Coding Bootcamp during that journey and reignited a passion for learning. and having the ability
+					to change the world by solving even the smallest problem or making something for efficient is a dream come true. I have
+					always enjoyed art and design and being a software developer allows me the ability to use that skill to help
+					build websites that are beautiful as well as functional. My passion for programming in one that I have just started to scratch the
+					the surface of. I now begin a lifelong journey of learning and growing and I can truly say I am excited for what lies ahead. I would
+						love the opportunity to help you realize or build a dream that you have as well and maybe we can change the world
+						together. If you have the need to help grow your business or you are just starting on that journey please contact me
+						and I would love to assist you in your journey. Thank you for visiting my site and God Bless!
+					</p>
 
-					<div class="col-sm-3">
-
-				<input type="email" class="form-control" id="inputName" placeholder="Name">
+				<div class="row">
+					<div class="column">
+						<img src="../images/coding.jpeg">
+					</div>
+					<div class="column">
+						<img src="coding2.jpeg">
+					</div>
+					<div class="column">
+						<img src="../images/coding.jpeg">
+					</div>
+					<div class="column">
+						<img src="../images/coding.jpeg">
+					</div>
+				</div>
 
 			</div>
 
-			<form>
 
-				<div class="form-group row">
+		</section>
 
-					<label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
 
-					<div class="col-sm-3">
+		<section>
+			<form action="/action_page.php">
+				<fieldset>
+					<legend>Contact Me:</legend>
+					First name:<br>
+					<input type="text" name="firstname" value=""><br>
+					Last name:<br>
+					<input type="text" name="lastname" value=""><br>
+					Email:<br>
+					<input type="text" name="Email" value=""><br>
 
-						<input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+				comments:<br><textarea name="message" style="width:600px; height:300px">
 
-					</div>
-
-						<label for="inputSubject" class="col-sm-2 col-form-label">Subject</label>
-
-						<div class="col-sm-3">
-
-							<input type="Subject" class="form-control" id="inputSubject" placeholder="Subject">
-
-						</div>
-
-				</div>
-
-					<div class="col-sm-3 offset-sm-2">
-
-						<button type="submit" class="btn btn-primary">Submit</button>
-
-					</div>
-
-				</div>
-
+</textarea><br>
+					<input type="submit" value="Submit">
+				</fieldset>
 			</form>
 
 		</section>
 
-
-
-
-
-
-		<!--Footer-->
-		<footer class="page-footer center-on-small-only stylish-color-dark">
-
-			<!--Footer Links-->
-			<div class="container">
-
-				<div class="row">
-
-					<!--First column-->
-					<div class="col-md-3">
-
-						<h3 class="title mb-4 mt-3 font-bold">Contact Me</h3>
-
-					</div>
-					<!--/.First column-->
-
-					<hr class="clearfix w-100 d-md-none">
-
-					<!--Second column-->
-					<div class="col-md-2 mx-auto">
-
-						<h5 class="title mb-4 mt-3 font-bold">Links</h5>
-
-						<ul>
-
-							<li><a href="#!">Link 1</a></li>
-
-							<li><a href="#!">Link 2</a></li>
-
-							<li><a href="#!">Link 3</a></li>
-
-							<li><a href="#!">Link 4</a></li>
-
-						</ul>
-
-					</div>
-					<!--/.Second column-->
-
-					<hr class="clearfix w-100 d-md-none">
-
-					<!--Third column-->
-					<div class="col-md-2 mx-auto">
-
-						<h5 class="title mb-4 mt-3 font-bold">Links</h5>
-
-						<ul>
-
-							<li><a href="#!">Link 1</a></li>
-
-							<li><a href="#!">Link 2</a></li>
-
-							<li><a href="#!">Link 3</a></li>
-
-							<li><a href="#!">Link 4</a></li>
-
-						</ul>
-
-					</div>
-					<!--/.Third column-->
-
-					<hr class="clearfix w-100 d-md-none">
-
-					<!--Fourth column-->
-					<div class="col-md-2 mx-auto">
-
-						<h5 class="title mb-4 mt-3 font-bold ">Links</h5>
-
-						<ul>
-
-							<li><a href="#!">Link 1</a></li>
-
-							<li><a href="#!">Link 2</a></li>
-
-							<li><a href="#!">Link 3</a></li>
-
-							<li><a href="#!">Link 4</a></li>
-						</ul>
-
-					</div>
-
-					<!--/.Fourth column-->
-				</div>
-
-			</div>
-			<!--/.Footer Links-->
-
-			<hr>
-
-			<div class="call-to-action">
-
-						<h5 class="mb-1">Hire Me</h5>
-
-			</div>
-
-			<hr>
-			<!--Social buttons-->
-			<div class="social-section text-center">
-
-				<ul>
-
-					<li><a class="btn-floating btn-sm btn-fb"><i class="fa fa-facebook"> </i></a></li>
-
-					<li><a class="btn-floating btn-sm btn-tw"><i class="fa fa-twitter"> </i></a></li>
-
-					<li><a class="btn-floating btn-sm btn-ig"><i class="fa fa-instagram"> </i></a></li>
-
-					<li><a class="btn-floating btn-sm btn-li"><i class="fa fa-linkedin"> </i></a></li>
-
-					<li><a class="btn-floating btn-sm btn-dribbble"><i class="fa fa-dribbble"> </i></a></li>
-
-				</ul>
-
-			</div>
-
-		</footer>
-
 	</body>
+
 </html>
