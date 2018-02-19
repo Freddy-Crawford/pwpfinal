@@ -25,16 +25,6 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-
-		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
-
-		<!-- Google reCAPTCHA for security-->
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-
 	</head>
 
 	<body>
@@ -67,10 +57,10 @@
 						<a href="https://www.linkedin.com/in/freddycrawford" target="_blank" class="nav-link"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+						<a href="https://twitter.com/fcharlesdesign" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li class="nav-item">
-						<a href="https://twitter.com/fcharlesdesign" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+						<a class="nav-link" href="#contact"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -85,7 +75,7 @@
 			</div>
 		</div>
 		</section>
-		<!-- ABOUT ME SECTION -->
+		<!-- About me section  -->
 		<section class="p-5 solid mt-0" id="About Me">
 			<div class="container">
 				<div class="row">
@@ -118,7 +108,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- SKILLS SECTION -->
+		<!-- Skills section with logos for programming abilities-->
 		<section class="p-5 solid mt-0" id="Skills">
 			<div class="container-fluid">
 				<div class="row">
@@ -192,7 +182,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- contact form section -->
+		<!-- contact form placeholder -->
 		<section class="p-5 solid mt-0" id="contact">
 			<div class="container">
 				<div class="row">
