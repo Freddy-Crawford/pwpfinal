@@ -1,7 +1,4 @@
 
-#welcome {
-	margin-top: 6rem;
-}
 
 .jumbotron {
 	color: white;
@@ -21,7 +18,7 @@ p {
 }
 
 section {
-	background-color: dimgrey;
+	background-color: lightgray;
 	color: white;
 }
 
@@ -39,22 +36,25 @@ input {
 textarea {
 	display: block;
 }
-
-#about-image {
-	width: 25rem;
-	float: right;
+#mypic {
+	transform:          rotate(90deg);
+	-ms-transform:      rotate(90deg);
+	-moz-transform:     rotate(90deg);
+	-webkit-transform:  rotate(90deg);
+	-o-transform:       rotate(90deg);
 }
 
 
-/*Parallax background effects*/
+
+/*Parallax background settings*/
 .parallax-content {
 	position: relative;
 	overflow: hidden;
-	height: 80vh;
+	height: 100vh;
 	-webkit-background-size: cover;
 	background-size: 100% 100%;
 	background-attachment: fixed;
-	background-position: center center;
+	background-position: center;
 }
 
 
@@ -123,9 +123,12 @@ textarea {
 
 }
 
+
+/* Turn off parallax scrolling for all tablets and phones for my images */
 @media only screen and (max-width: 992px) {
 	img[class*="col-"] {
 		padding: 0 !important;
 	}
+
 }
 
