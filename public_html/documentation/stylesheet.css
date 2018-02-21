@@ -2,24 +2,18 @@
 
 .jumbotron {
 	color: white;
-	text-shadow: #000 2px 2px;
+	text-shadow: #000 4px 4px;
 }
-
 
 
 #top-of-page {
 	position: fixed;
 }
 
-p {
-	font-weight: 500;
-}
-
 section {
 	background-color: lightgray;
 	color: white;
 }
-
 
 label {
 	display:block;
@@ -28,7 +22,7 @@ label {
 }
 
 input {
-	display: block;
+	display: -webkit-box;
 }
 
 textarea {
@@ -81,7 +75,7 @@ textarea {
 
 
 
-/* xs to lg*/
+/* xs to lg settings for larger screens desktop*/
 @media(min-width: 769px) {
 	.parallax-content {
 		background-image: url("abqskyline.jpg");
@@ -101,7 +95,7 @@ textarea {
 	}
 }
 
-/* xs to 0 */
+/* xs to 0  setting for smaller phone and tablet*/
 @media(max-width: 768px){
 	.parallax-content .parallax:before{
 		background-image: url("abqskyline.jpg");
@@ -127,6 +121,8 @@ textarea {
 	img[class*="col-"] {
 		padding: 0 !important;
 	}
+
+
 
 }
 

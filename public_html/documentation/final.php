@@ -26,7 +26,7 @@
 	</head>
 
 	<body>
-		<!-- nav bar -->
+		<!-- nav bar including links for social media and links for page advancement-->
 		<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page">
 			<a class="navbar-brand"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -186,6 +186,34 @@
 				</div>
 			</div>
 		</div>
+
+
+		<section>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <div class="carousel-inner" role="listbox">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="mypic.jpg" data-src="here we go" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="mainlogo.png" data-src="logo baby" alt="Second slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+			</section>
+
+
+
+
+
+
 		<!-- contact form placeholder -->
 		<section class="p-5 solid mt-0" id="contact">
 			<div class="container">
