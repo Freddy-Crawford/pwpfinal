@@ -1,5 +1,4 @@
 
-
 .jumbotron {
 	color: white;
 	text-shadow: #000 4px 4px;
@@ -11,7 +10,7 @@
 }
 
 section {
-	background-color: lightgray;
+	background-color:darkslategrey;
 	color: white;
 }
 
@@ -27,13 +26,6 @@ input {
 
 textarea {
 	display: block;
-}
-#mypic {
-	transform:          rotate(90deg);
-	-ms-transform:      rotate(90deg);
-	-moz-transform:     rotate(90deg);
-	-webkit-transform:  rotate(90deg);
-	-o-transform:       rotate(90deg);
 }
 
 
@@ -78,39 +70,39 @@ textarea {
 /* xs to lg settings for larger screens desktop*/
 @media(min-width: 769px) {
 	.parallax-content {
-		background-image: url("abqskyline.jpg");
+		background-image: url("../images/parallax-images/abqskyline.jpg");
 
 	}
 
 	.parallax-content2 {
-		background-image: url("bloonnight.jpg");
+		background-image: url("../images/parallax-images/bloonnight.jpg");
 	}
 
 	.parallax-content3 {
-		background-image: url("vla.jpg");
+		background-image: url("../images/vla.jpg");
 	}
 
 	.parallax-content4 {
-		background-image: url("desertnight.jpg");
+		background-image: url("../images/parallax-images/desertnight.jpg");
 	}
 }
 
 /* xs to 0  setting for smaller phone and tablet*/
 @media(max-width: 768px){
 	.parallax-content .parallax:before{
-		background-image: url("abqskyline.jpg");
+		background-image: url("../images/parallax-images/abqskyline.jpg");
 	}
 
 	.parallax-content2 .parallax:before{
-		background-image: url("bloonnight.jpg");
+		background-image: url("../images/parallax-images/bloonnight.jpg");
 	}
 
 	.parallax-content3 .parallax:before{
-		background-image: url("vla.jpg");
+		background-image: url("../images/vla.jpg");
 	}
 
 	.parallax-content4 .parallax:before{
-		background-image: url("desertnight.jpg");
+		background-image: url("../images/parallax-images/desertnight.jpg");
 	}
 
 }
@@ -125,4 +117,3 @@ textarea {
 
 
 }
-
