@@ -18,6 +18,15 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+		<!-- jQuery Form, Additional Methods, Validate -->
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+
+
+
+
 		<!--Font Awesome CDN-->
 		<script src="https://use.fontawesome.com/02efcb04d1.js"></script>
 		<!-- Your JavaScript Form Validator -->
@@ -193,45 +202,45 @@
 			</div>
 		</div>
 		<!--
-Contact Form
+      Contact Form
 -->
 
-		<form id="Contact Me" action="php/mailer.php" method="post">
+		<form id="mailform" action="php/mailer.php" method="post">
 			<div class="p-5 solid mt-0">
 			<div class="form-group">
-				<label for="Name">Name <span class="text-danger">*</span></label>
+				<label for="name">Name <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-addon">
 						<i class="fa fa-user" aria-hidden="true"></i>
 					</div>
-					<input type="text" class="form-control" id="contactDemoName" name="contactDemoName" placeholder="Name">
+					<input type="text" class="form-control" id="name" name="name" placeholder="name">
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="Email">Email <span class="text-danger">*</span></label>
+				<label for="email">Email <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-addon">
 						<i class="fa fa-envelope" aria-hidden="true"></i>
 					</div>
-					<input type="email" class="form-control" id="contactDemoEmail" name="contactDemoEmail" placeholder="Email">
+					<input type="email" class="form-control" id="email" name="email" placeholder="email">
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="Subject">Subject <span class="text-danger">*</span></label>
+				<label for="subject">Subject <span class="text-danger">*</span></label>
 				<div class="input-group">
 					<div class="input-group-addon">
 						<i class="fa fa-pencil" aria-hidden="true"></i>
 					</div>
-					<input type="text" class="form-control" id="contactDemoSubject" name="contactDemoSubject" placeholder="Subject">
+					<input type="text" class="form-control" id="subject" name="subject" placeholder="subject">
 				</div>
 			</div>
 			<div class="form-group">
-				<label for="Message">Message <span class="text-danger">*</span></label>
+				<label for="message">Message <span class="text-danger">*</span></label>
 				<div class="input-group">
 						<span class="input-group-text"></span>
 						<i class="fa fa-comment" aria-hidden="true"></i>
 					</div>
-					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="(2000 characters max)"></textarea>
+					<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
 				</div>
 
 
@@ -239,12 +248,10 @@ Contact Form
 
 
 			<!-- reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
-
-			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+				<div class="g-recaptcha" data-sitekey="6LdbAUgUAAAAABaDN0Su_KBAitgcWcdFRlDzs5lz"></div>
+			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> submit</button>
+			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> reset</button>
 		</form>
-		</div>
 
 		<!--empty area for form error/success output-->
 		<div class="row">
@@ -252,5 +259,6 @@ Contact Form
 				<div id="output-area"></div>
 			</div>
 		</div>
+
 	</body>
 </html>
