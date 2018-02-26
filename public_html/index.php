@@ -25,8 +25,6 @@
 
 
 
-
-
 		<!--Font Awesome CDN-->
 		<script src="https://use.fontawesome.com/02efcb04d1.js"></script>
 		<!-- Your JavaScript Form Validator -->
@@ -134,28 +132,37 @@
 						<h2>Some Of The Programming Skills I Have Experience With</h2>
 						<div class="container-fluid">
 							<div class="row">
-								<div class="col-lg-12 m-3">
-									<img src="images/json.png" class="col-md-2 col-lg-2" alt="json logo">
+								<div class="col mt-2">
 									<img src="images/mysql.png" class="col-md-2 col-lg-2" alt="mysql logo">
 									<img src="images/bootstrap2.png" class="col-md-2 col-lg-2" alt="bootstraplogo">
 									<img src="images/php.png" class="col-md-2 col-lg-2" alt="php logo">
+									<img src="images/json.png" class="col-md-2 col-lg-2" alt="json logo">
+
+
 								</div>
 							</div>
 						</div>
 						<div class="container-fluid">
 							<div class="row">
-								<div class="col-lg-12 m-3">
-									<img src="images/jquery.png" class="col-md-2" alt="jquery">
-									<img src="images/angular-logo.png" class="col-md-2" alt="angular logo">
-									<img src="images/html-logo-small.png" class="col-md-2" alt="html logo">
-									<img src="images/css3.png" class="col-md-2" alt="css logo">
+								<div class="col mt-2">
+									<img src="images/jquery.png" class="col-md-2 col-lg-2" alt="jquery">
+									<img src="images/angular-logo.png" class="col-md-2 col-lg-2" alt="angular logo">
+									<img src="images/newcss.jpeg" class="col-md-2 col-lg-2" alt="css logo">
 									<img src="images/stackoverflow.png" class="col-md-2 col-lg-2" alt="stack logo">
+									<img src="images/github.png" class="col-md-2 col-lg-2" alt="github">
 								</div>
 							</div>
 						</div>
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col mt-2">
+									<img src="images/git.png" class="col-md-2 col-lg-2" alt="git">
+									<img src="images/phpstorm.jpeg" class="col-md-2 col-lg-2" alt="phpstorm logo">
+									<img src="images/html-logo-small.png" class="col-md-2 col-lg-2" alt="html logo">
+									<img src="images/wordpress.png" class="col-md-2 col-lg-2" alt="wordpress logo">
+						</div>
 					</div>
 				</div>
-			</div>
 		</section>
 
 
@@ -175,7 +182,7 @@
 					<div class="col-xs-12 col-md-8 col-lr-6">
 						<h2></h2>
 						<ul>
-							<li>Ppalce holder </li>
+							<li>palce holder </li>
 							<li>placeholders</li>
 							<li>place holders</li>
 							<li>place holder</li>
@@ -202,63 +209,41 @@
 			</div>
 		</div>
 		<!--
-      Contact Form
+      Contact Form with recaptcha
 -->
-
-		<form id="mailform" action="php/mailer.php" method="post">
-			<div class="p-5 solid mt-0">
-			<div class="form-group">
-				<label for="name">Name <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-user" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="name" name="name" placeholder="name">
+<section>
+		<div class="col-lg-6">
+			<form id="contact-form" action="php/mailer.php" method="post">
+				<div class="form-group">
+					<label for="contactName">Name <span class="text-danger">*</span></label>
+					<input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name">
 				</div>
-			</div>
-			<div class="form-group">
-				<label for="email">Email <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-envelope" aria-hidden="true"></i>
-					</div>
-					<input type="email" class="form-control" id="email" name="email" placeholder="email">
+				<div class="form-group">
+					<label for="contactEmail">Email address <span class="text-danger">*</span></label>
+					<input type="email" class="form-control" id="contactEmail" name="contactEmail" aria-describedby="emailHelp" placeholder="Email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 				</div>
-			</div>
-			<div class="form-group">
-				<label for="subject">Subject <span class="text-danger">*</span></label>
-				<div class="input-group">
-					<div class="input-group-addon">
-						<i class="fa fa-pencil" aria-hidden="true"></i>
-					</div>
-					<input type="text" class="form-control" id="subject" name="subject" placeholder="subject">
+				<div class="form-group">
+					<label for="contactSubject">Subject </label>
+					<input type="text" class="form-control" id="contactSubject" name="contactSubject" placeholder="Name">
 				</div>
-			</div>
-			<div class="form-group">
-				<label for="message">Message <span class="text-danger">*</span></label>
-				<div class="input-group">
-						<span class="input-group-text"></span>
-						<i class="fa fa-comment" aria-hidden="true"></i>
-					</div>
-					<textarea class="form-control" rows="5" id="message" name="message" placeholder="(2000 characters max)"></textarea>
+				<div class="form-group">
+					<label for="contactMessage">Message <span class="text-danger">*</span></label>
+					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="Message"></textarea>
 				</div>
 
-
-
-
-
-			<!-- reCAPTCHA -->
+				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6LdbAUgUAAAAABaDN0Su_KBAitgcWcdFRlDzs5lz"></div>
-			<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> submit</button>
-			<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> reset</button>
-		</form>
+				<button class="btn btn-success" type="submit">Send</button>
+			</form>
 
-		<!--empty area for form error/success output-->
-		<div class="row">
-			<div class="col-xs-12">
-				<div id="output-area"></div>
+			<!--empty area for form error/success output-->
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="output-area"></div>
+				</div>
 			</div>
 		</div>
-
+		</section>
 	</body>
 </html>
