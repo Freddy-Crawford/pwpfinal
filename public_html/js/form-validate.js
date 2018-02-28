@@ -10,8 +10,10 @@ $(document).ready(function(){
 	 * Update this file as needed for your form.
 	 * All ids and name values must match up to your form here.
 	 *
+	 * @author Freddy Crawford <fcrawford@cnm.edu>
 	 * @author Rochelle Lewis <rlewis37@cnm.edu>
 	 * @author Jolynn Pruitt <jpruitt5@cnm.edu>
+	 *
 	 **/
 
 	/* begin validate function here */

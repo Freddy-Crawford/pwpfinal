@@ -71,7 +71,7 @@
 						<a href="https://twitter.com/fcharlesdesign" target="_blank" class="nav-link"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#contact"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+						<a class="nav-link" href="#contact-form"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -108,7 +108,7 @@
 							I would love the opportunity to help assist you in making your great idea a visual reality. Thank you for visiting my site and God Bless!
 						</p>
 					</div>
-					<div class="col-sm-12 col-md-4 col-lg-6"><img class="image-fluid" src="./images/parallax-images/mypic.jpg" alt ="pic of me " id="mypic"></div>
+					<div class="col-sm-12 col-md-4 col-lg-6"><img class="image-fluid" src="images/parallax-images/22fcharles22.jpg" alt ="pic of me " id="mypic"></div>
 				</div>
 			</div>
 		</section>
