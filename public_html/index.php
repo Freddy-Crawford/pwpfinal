@@ -3,43 +3,28 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
 		<!--BOOTSTRAP CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
 		<!--Other and custom CSS-->
 		<link rel="stylesheet" href="styles/stylesheet.css"/>
-
 		<!--link to Bootstrap javascript dependencies-->
 		<!--(Put it here, but if it is a heavy site, put this block just below the closing body tag)-->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
-
-
-
 		<!--Font Awesome CDN-->
 		<script src="https://use.fontawesome.com/02efcb04d1.js"></script>
 		<!-- Your JavaScript Form Validator -->
 		<script src="js/form-validate.js"></script>
-
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
-
-
-
 		<title>Freddy Crawford</title>
-
 	</head>
-
-
 	<body>
 		<!-- nav bar including links for social media and links for page advancement-->
 		<nav class="navbar fixed-top navbar-default navbar-expand-md navbar-dark bg-dark" id="top-of-page">
@@ -56,7 +41,7 @@
 						<a class="nav-link" href="#Skills">Skills</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#abilities">Abilities</a>
+						<a class="nav-link" href="#abilities">Projects</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="freddycrawford-resume.pdf">Resume</a>
@@ -76,18 +61,15 @@
 				</ul>
 			</div>
 		</nav>
-
 		<!--parallax section 1//transparent bg on jumbotron to show image in background-->
 		<section class="parallax-content">
 			<div class="parallax">
 				<div class="jumbotron bg-transparent text-center" id="welcome">
 					<h1 class="py-5">DEVELOPER</h1>
-
+					<h2>Website and Software design</h2>
 				</div>
 			</div>
 		</section>
-
-
 		<!-- About me section  -->
 		<section class="py-5 solid" id="About Me">
 			<div class="container">
@@ -112,8 +94,6 @@
 				</div>
 			</div>
 		</section>
-
-
 		<!-- parallax section 2 -->
 		<div class="parallax-content parallax-content2">
 			<div class="parallax">
@@ -123,7 +103,6 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- Skills section with logos for programming abilities-->
 		<section class="p-5 solid mt-0" id="Skills">
 			<div class="container-fluid">
@@ -137,8 +116,6 @@
 									<img src="images/bootstrap2.png" class="col-md-2 col-lg-2" alt="bootstraplogo">
 									<img src="images/php.png" class="col-md-2 col-lg-2" alt="php logo">
 									<img src="images/json.png" class="col-md-2 col-lg-2" alt="json logo">
-
-
 								</div>
 							</div>
 						</div>
@@ -160,12 +137,10 @@
 									<img src="images/phpstorm.jpeg" class="col-md-2 col-lg-2" alt="phpstorm logo">
 									<img src="images/html-logo-small.png" class="col-md-2 col-lg-2" alt="html logo">
 									<img src="images/wordpress.png" class="col-md-2 col-lg-2" alt="wordpress logo">
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
 		</section>
-
-
 		<!-- parallax section 3-->
 		<div class="parallax-content parallax-content3">
 			<div class="parallax">
@@ -180,25 +155,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-8 col-lr-6">
-						<h2></h2>
-						<ul>
-							<li>palce holder </li>
-							<li>placeholders</li>
-							<li>place holders</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-							<li>place holder</li>
-						</ul>
+						<h1>KMARU</h1>
+						<p>KMARU is a culmination of my time at Deep Dive Coding Bootcamp. It is an ongoing collaborative project with my 3 group mates. The game is based on the popular television show jeopardy. Classroom students can interact with the classroom instructor from their computers to "buzz in" and answer questions. The web application also generates game boards and questions at random based on predetermined categories and point values. We built this game to specifically solve a need for the bootcamp as this game was being played on a weekly basis with index cards and a notepad. This project shows my abilities to build a fully functional web application that based on a direct need that with help many future students. Building this web app to solve a direct need and being able to benefit others is a great feeling and the reason why I choose to become a developer. I am looking forward to all the many great projects I have ahead of me. </p>
+						<div class="col-sm-12 col-md-4 col-lg-6"><img class="image-fluid" src="images/wireframes/kmaru-v2.png" alt ="logo kmaru " id="kmaru"></div>
 					</div>
+				</div>
+			</div>
 		</section>
-
 		<!-- parallax section 4 -->
 		<div class="parallax-content parallax-content4">
 			<div class="parallax">
@@ -211,7 +174,7 @@
 		<!--
       Contact Form with recaptcha
 -->
-<section>
+	<section>
 		<div class="col-lg-6">
 			<form id="contact-form" action="php/mailer.php" method="post">
 				<div class="form-group">
@@ -231,12 +194,10 @@
 					<label for="contactMessage">Message <span class="text-danger">*</span></label>
 					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="Message"></textarea>
 				</div>
-
 				<!-- reCAPTCHA -->
 				<div class="g-recaptcha" data-sitekey="6LdbAUgUAAAAABaDN0Su_KBAitgcWcdFRlDzs5lz"></div>
 				<button class="btn btn-success" type="submit">Send</button>
 			</form>
-
 			<!--empty area for form error/success output-->
 			<div class="row">
 				<div class="col-xs-12">
@@ -244,6 +205,6 @@
 				</div>
 			</div>
 		</div>
-		</section>
+	</section>
 	</body>
 </html>
