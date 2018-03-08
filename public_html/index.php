@@ -81,7 +81,7 @@
 							duties included being as efficient as possible in determining problems and determining the quickest most
 							efficient solution to problems. I didn't see my desire for problem solving leading me to programming but that's exactly how it happened.</p><p> I was looking
 							for a career that would allow me to use more of my own creativity and mental capacity to solve problems. I discovered
-							Stemulus Deep Dive Coding Bootcamp during that journey and it reignited my passion for learning. I feel like I have the ability
+							 Deep Dive Coding Bootcamp during that journey and it reignited my passion for learning. I feel like I have the ability
 							to change the world by solving even the smallest problem or making something more efficient. I have also
 							always enjoyed art and design and I believe that being a software developer allows me the ability to use that passion to help
 							build websites that are beautiful as well as functional. My passion for programming is one that I am just beginning to scratch the
@@ -151,14 +151,14 @@
 				</div>
 			</div>
 		</div>
-		<section class="p-5 solid mt-0" id="abilities">
+		<section class="py-5 solid mt-0" id="abilities">
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-12 col-md-8 col-lr-6">
+					<div class="col-sm-12 col-md-8 col-lg-6">
 						<h1>KMARU</h1>
-						<p>KMARU is a culmination of my time at Deep Dive Coding Bootcamp. It is an ongoing collaborative project with my 3 group mates. The game is based on the popular television show jeopardy. Classroom students can interact with the classroom instructor from their computers to "buzz in" and answer questions. The web application also generates game boards and questions at random based on predetermined categories and point values. We built this game to specifically solve a need for the bootcamp as this game was being played on a weekly basis with index cards and a notepad. This project shows my abilities to build a fully functional web application that based on a direct need that with help many future students. Building this web app to solve a direct need and being able to benefit others is a great feeling and the reason why I choose to become a developer. I am looking forward to all the many great projects I have ahead of me. </p>
-						<div class="col-sm-12 col-md-4 col-lg-6"><img class="image-fluid" src="images/wireframes/kmaru-v2.png" alt ="logo kmaru " id="kmaru"></div>
+						<p>KMARU is a culmination of my time at Deep Dive Coding Bootcamp. It is an ongoing collaborative project with my 3 group mates. The game is based on the popular television show Jeopardy. Classroom students can interact with the instructor from their computers to "buzz in" and answer questions. The web application also generates game boards and questions at random based on predetermined categories and point values. We built this game to specifically solve a need at the Bootcamp as this game was being played on a weekly basis with index cards and a notepad. This project shows my abilities to build a fully functional web application that directly solved a  need and will help many future students of Deep Dive Coding. Building this web app to solve a direct need and being able to benefit others is a great feeling and the reason why I choose to become a developer. I am very proud of this accomplishment and look forward to all the many great projects I have ahead of me. </p>
 					</div>
+					<div class="col-sm-12 col-md-4 col-lg-6"><img class="image-fluid" src="images/wireframes/kmaru-v2.png" alt ="kmaru logo " id="kamaru"></div>
 				</div>
 			</div>
 		</section>
