@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 		<!--BOOTSTRAP CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<!--Other and custom CSS-->
@@ -99,8 +99,9 @@
 			<div class="parallax">
 				<div class="jumbotron bg-transparent text-center">
 					<div class="col-sm-12 col-md-8 col-lg-6">
-					<h1>“For a long time it puzzled me how something so expensive, so leading edge, could be so useless. And then it occurred to me that a computer is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.”
-						- Bill Bryson</h1>
+					<h2>“For a long time it puzzled me how something so expensive, so leading edge, could be so useless. And then it occurred to me that a computer
+						is a stupid machine with the ability to do incredibly smart things, while computer programmers are smart people with the ability to do incredibly stupid things. They are, in short, a perfect match.”
+						- Bill Bryson</h2>
 					</div>
 				</div>
 			</div>
@@ -153,17 +154,18 @@
 				</div>
 			</div>
 		</div>
-		<section class="py-5 solid mt-0" id="abilities">
-			<div class="container">
+		<section class="py-3 solid mt-0" id="abilities">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-sm-12 col-md-8 col-lg6">
-						<h1>KMARU</h1>
+				  <div class="col-sm-12 col-md-8 col-lg6">
+						 <h1>K  MARU</h1>
 						<p>KMARU is a culmination of my time at Deep Dive Coding Bootcamp. It is an ongoing collaborative project with my 3 group mates. The game is based on the popular television show Jeopardy. Classroom students can interact with the instructor from their computers to "buzz in" and answer questions. The web application also generates game boards and questions at random based on predetermined categories and point values. We built this game to specifically solve a need at the Bootcamp as this game was being played on a weekly basis with index cards and a notepad. This project shows my abilities to build a fully functional web application that directly solved a  need and will help many future students of Deep Dive Coding. Building this web app to solve a direct need and being able to benefit others is a great feeling and the reason why I choose to become a developer. I am very proud of this accomplishment and look forward to all the many great projects I have ahead of me. </p>
-						</div>
-					<div class="col-sm-12 col-md-8 col-lg6"><img class="image-fluid" height="400" width="400" src="images/wireframes/kmaru-v2.png" alt ="kmaru logo " id="kamaru"></div>
+						<div><img class="image-fluid" height="500" width="300" src="images/wireframes/kmaru-v2.png" alt ="kmaru logo " id="kamaru"></div>
+					  </div>
+					  </div>
 				</div>
-			</div>
 		</section>
+
 		<!-- parallax section 4 -->
 		<div class="parallax-content parallax-content4">
 			<div class="parallax">
@@ -197,7 +199,7 @@
 					<textarea class="form-control" rows="5" id="contactMessage" name="contactMessage" placeholder="Message"></textarea>
 				</div>
 				<!-- reCAPTCHA -->
-				<div class="g-recaptcha" data-sitekey="6LdbAUgUAAAAABaDN0Su_KBAitgcWcdFRlDzs5lz"></div>
+				<div class="g-recaptcha" data-sitekey="6LchaEsUAAAAALBILWfjTHiiga_zblosfhRlAZ71"></div>
 				<button class="btn btn-success" type="submit">Send</button>
 			</form>
 			<!--empty area for form error/success output-->
