@@ -1,3 +1,6 @@
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://fcharlescrawford.com/$1 [L]
+
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^fcharlescrawford.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.fcharlescrawford.com$
