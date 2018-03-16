@@ -6,18 +6,19 @@
  * library with Google reCAPTCHA integration.
  *
  * @author Rochelle Lewis <rlewis37@cnm.edu>
+ * @author Jolynn Pruitt <jpruitt5@cnm.edu>
  **/
 // require all composer dependencies
 require_once(dirname(__DIR__, 2) . "/vendor/autoload.php");
 // require mail-config.php
-require_once("mail-config.php");
+require_once("mail-config.php");{
 // verify user's reCAPTCHA input
-$recaptcha = new \ReCaptcha\ReCaptcha($secret);
-$resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
-try {
-	//if there's a reCAPTCHA error, throw an exception
-	if (!$resp->isSuccess()) {
-	throw(new Exception("reCAPTCHA error!"));
+//$recaptcha = new \ReCaptcha\ReCaptcha($secret);
+//$resp = $recaptcha->verify($_POST["g-recaptcha-response"], $_SERVER["REMOTE_ADDR"]);
+//try {
+	// if there's a reCAPTCHA error, throw an exception
+//	if (!$resp->isSuccess()) {
+	//	throw(new Exception("reCAPTCHA error!"));
 	}
 	/**
 	 * Sanitize the inputs from the form: name, email, subject, and message.
@@ -28,13 +29,11 @@ try {
 	$email = filter_input(INPUT_POST, "contactEmail", FILTER_SANITIZE_EMAIL);
 	$subject = filter_input(INPUT_POST, "contactSubject", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
 	$message = filter_input(INPUT_POST, "contactMessage", FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
-// create Swift message
+	// create Swift message
 	$swiftMessage = new Swift_Message();
 	/**
-	 *
-	 *
 	 * Attach the sender to the message.
-	 * This takes the form of an associative array where $demoEmail is the key for the real name.
+	 * This takes the form of an associative array where $email is the key for the real name.
 	 **/
 	$swiftMessage->setFrom([$email => $name]);
 	/**
@@ -83,6 +82,5 @@ try {
 	}
 	// report a successful send!
 	echo "<div class=\"alert alert-success\" role=\"alert\">Email successfully sent.</div>";
-} catch(Exception $exception) {
-	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . $exception->getMessage() . "</div>";
-}
+//} catch(Exception $exception) {
+//	echo "<div class=\"alert alert-danger\" role=\"alert\"><strong>Oh snap!</strong> Unable to send email: " . exception->getMessage() . "</div>";
